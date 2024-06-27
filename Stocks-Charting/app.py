@@ -16,7 +16,7 @@ default_start_date = datetime(2020, 1, 1)
 default_end_date = datetime.today()
 
 # Read tickers from a CSV file
-ticker_data = pd.read_csv('Stock-Tickers.csv')
+ticker_data = pd.read_csv('Stocks-Charting/Stock-Tickers.csv')
 ticker_options = ticker_data['Tickers'].tolist()
 
 # User inputs with default values
