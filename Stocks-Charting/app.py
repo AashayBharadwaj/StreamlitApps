@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 
-st.title('Stock Dahsboard')
+st.title('Stock Dashboard')
 
 # Default values
 default_ticker = 'MSFT'
