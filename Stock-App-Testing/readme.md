@@ -10,7 +10,6 @@ The Stock Analysis Dashboard is a Streamlit application designed to provide user
 # Stock Analysis Dashboard
 <img src="logos/stock_dashboard_1.png" alt="Stock Dashboard" width="400"/>
 
-<img src="Stock-App-Testing/logos/stock_dashboard_1.png" alt="Stock Dashboard" width="400"/>
 
 ## Features
 
