@@ -9,8 +9,6 @@ The Stock Analysis Dashboard is a Streamlit application designed to provide user
 
 # Stock Analysis Dashboard
 <img src="logos/stock_dashboard_1.png" alt="Stock Dashboard" width="400"/>
-<img src="logos/single_stock.png" alt="Single Stock" width="400"/>
-
 
 <img src="Stock-App-Testing/logos/stock_dashboard_1.png" alt="Stock Dashboard" width="400"/>
 
@@ -21,10 +19,14 @@ The Stock Analysis Dashboard is a Streamlit application designed to provide user
 1. **Individual Stock Price Charting**
    - Users can select a stock ticker and view its price chart over a specified time period.
 
+  <img src="logos/single_stock.png" alt="Single Stock" width="400"/>
+
+
+
 2. **Comparison of Two Stocks**
    - Users can select two different stock tickers and compare their performance over the same time period using a dual y-axis chart.
 
-<img src="Stock-App-Testing/logos/Stock-Comparisons.png" alt="Stock-Comparisons" width="400"/>
+   <img src="logos/Stock-Comparisons.png" alt="Single Stock" width="400"/>
 
 
 3. **API Integration**
