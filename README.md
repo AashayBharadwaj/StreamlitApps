@@ -16,6 +16,10 @@ The Stock Analysis Dashboard is a Streamlit application designed to provide user
 
 This app conducts energy forecasting based on past consumption data. It adapts Rob Mulla's energy forecasting project to work with any file containing energy data, provided the first column is the date and the second is the energy consumption value.
 
+
+<img src="Images/visual_basic.png" alt="Visual Basic" width="400"/>
+<img src="Images/xgboost.png" alt="XGBoost" width="400"/>
+
 **Technical Highlights:**
 - Developed a frontend using Streamlit, allowing users to input their own files into the data model. 💻
 - Generated plots to display hourly and monthly power consumption trends. 📈
