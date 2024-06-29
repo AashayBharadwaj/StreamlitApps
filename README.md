@@ -8,8 +8,9 @@ This repository contains a collection of Streamlit apps developed as part of my 
 
 The Stock Analysis Dashboard is a Streamlit application designed to provide users with the ability to chart the prices of individual stocks and compare the performance of two different stocks. The app fetches data via API calls, including stock prices, financial statements, and news articles related to the stocks.
 
-<img src="Stock-App-Testing/logos/stock_dashboard_1.png" alt="Stock Dashboard" width="400"/>
+
 <img src="Stock-App-Testing/logos/single_stock.png" alt="Single Stock" width="400"/>
+<img src="Stock-App-Testing/logos/Stock-Comparisons.png" alt="Stock Dashboard" width="400"/>
 
 ### App 2: Energy Forecasting
 
