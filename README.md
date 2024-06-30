@@ -5,8 +5,8 @@ This repository contains a collection of Streamlit apps developed as part of my 
 ## Overview
 
 <p align="center">
-  <img src="Images/App-1.png" width="400" />
-  <img src="Images/App-2.png" width="400" />
+  <img src="Images/app_3.png" width="400" />
+  <img src="Images/app_4.png" width="400" />
 </p>
 
 
