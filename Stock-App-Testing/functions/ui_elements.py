@@ -48,7 +48,7 @@ def render_portfolio_layout_with_image():
 # Call the cached function to render header and text
 def render_portfolio_header_and_text():
     # Header
-    st.title("Stock Analysis Dashboard")
+    st.title("Portfolio Analysis Dashboard")
 
     # Text with typing animation
     lines = [
