@@ -20,7 +20,7 @@ The Stock Analysis Dashboard is a Streamlit application designed to provide user
 
 Added another feature for portfolio tracking.
 
-<img src="Stock-App-Testing/logos/single_stock.png" alt="Single Stock" width="400"/>
+<img src="Images/Portfolio-Tracker.png" alt="Single Stock" width="400"/>
 
 
 ### App 2: Energy Forecasting
