@@ -18,6 +18,11 @@ The Stock Analysis Dashboard is a Streamlit application designed to provide user
 <img src="Stock-App-Testing/logos/single_stock.png" alt="Single Stock" width="400"/>
 <img src="Stock-App-Testing/logos/Stock-Comparisons.png" alt="Stock Dashboard" width="400"/>
 
+Added another feature for portfolio tracking.
+
+<img src="Stock-App-Testing/logos/single_stock.png" alt="Single Stock" width="400"/>
+
+
 ### App 2: Energy Forecasting
 
 This app conducts energy forecasting based on past consumption data. It adapts Rob Mulla's energy forecasting project to work with any file containing energy data, provided the first column is the date and the second is the energy consumption value.
