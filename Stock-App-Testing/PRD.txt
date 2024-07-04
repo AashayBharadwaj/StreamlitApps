@@ -46,7 +46,7 @@ Requirements:
 
 Wireframes/Mockups:
 
-Include basic wireframes or mockups to visually represent the main screens and user interactions. (Placeholder for actual wireframes)
+(Placeholder for actual wireframes)
 
 Acceptance Criteria:
 
