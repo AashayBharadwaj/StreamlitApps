@@ -18,6 +18,16 @@ Features:
         Performance Metrics: The application will display key performance metrics such as ROI, growth rate, and overall portfolio value.
         Historical Data: Users can view historical performance data and trends for their portfolios.
 
+
+Epics
+
+Epic 1: Stock Performance Tracking
+        This epic includes all features related to tracking and analyzing the performance of individual stocks. This includes the existing features like selecting tickers, date ranges, and comparing stocks, as well as the            new features for tracking hypothetical returns.
+
+Epic 2: Portfolio Tracking
+        This epic includes all features related to managing and tracking investment portfolios. This involves creating, editing, and managing portfolios, viewing performance metrics, and analyzing historical data.
+
+
 User Stories:
 
     Track Stock Performance:
