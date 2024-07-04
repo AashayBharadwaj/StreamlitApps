@@ -1,0 +1,57 @@
+Product Requirements Document (PRD)
+
+Product Name:
+Stock and Portfolio Tracker
+
+Objective:
+To create an intuitive and interactive application for tracking stock performance and managing investment portfolios, empowering users with actionable insights for informed investment decisions.
+
+Features:
+
+    Track Stock Performance:
+        Select Ticker(s): Users can choose one or more stock tickers to monitor.
+        Date Range Selection: Users can specify the start and end dates to analyze stock performance.
+        Comparison Tool: Users can compare the performance of multiple stocks over selected periods.
+
+    Track Portfolio:
+        Portfolio Management: Users can create, edit, and manage their investment portfolios.
+        Performance Metrics: The application will display key performance metrics such as ROI, growth rate, and overall portfolio value.
+        Historical Data: Users can view historical performance data and trends for their portfolios.
+
+User Stories:
+
+    Track Stock Performance:
+        As a user, I want to select multiple stock tickers so that I can monitor their performance simultaneously.
+        As a user, I want to specify a date range so that I can analyze the performance of stocks over a specific period.
+        As a user, I want to compare multiple stocks so that I can make better investment decisions.
+
+    Track Portfolio:
+        As a user, I want to create and manage my investment portfolio so that I can track my investments in one place.
+        As a user, I want to see various performance metrics so that I can evaluate the success of my investments.
+        As a user, I want to view historical data of my portfolio so that I can identify trends and make informed decisions.
+
+Requirements:
+
+    Functional Requirements:
+        The application must allow users to select and track multiple stock tickers.
+        Users must be able to specify and change the date range for analysis.
+        The application must provide a comparison feature for selected stocks.
+        Users must be able to create, edit, and manage their investment portfolios.
+        The application must display key performance metrics and historical data for portfolios.
+
+    Technical Requirements:
+        The application must be built using Streamlit for the front-end.
+        Python will be used for back-end processing and data handling.
+        Integration with financial APIs to fetch real-time stock data is required.
+
+Wireframes/Mockups:
+
+Include basic wireframes or mockups to visually represent the main screens and user interactions. (Placeholder for actual wireframes)
+
+Acceptance Criteria:
+
+    Users can select and track multiple stock tickers.
+    Users can specify and modify the date range for analysis.
+    Users can compare the performance of selected stocks.
+    Users can create, edit, and manage their investment portfolios.
+    The application displays accurate performance metrics and historical data for portfolios.
