@@ -18,6 +18,21 @@ Features:
         Performance Metrics: The application will display key performance metrics such as ROI, growth rate, and overall portfolio value.
         Historical Data: Users can view historical performance data and trends for their portfolios.
 
+Requirements:
+
+    Functional Requirements:
+        The application must allow users to select and track multiple stock tickers.
+        Users must be able to specify and change the date range for analysis.
+        The application must provide a comparison feature for selected stocks.
+        Users must be able to create, edit, and manage their investment portfolios.
+        The application must display key performance metrics and historical data for portfolios.
+
+    Technical Requirements:
+        The application must be built using Streamlit for the front-end.
+        Python will be used for back-end processing and data handling.
+        Integration with financial APIs to fetch real-time stock data is required.
+
+
 
 Epics
 
@@ -40,19 +55,25 @@ User Stories:
         As a user, I want to see various performance metrics so that I can evaluate the success of my investments.
         As a user, I want to view historical data of my portfolio so that I can identify trends and make informed decisions.
 
-Requirements:
+New features to be developed:-
+    User Stories for New Features
+Track Hypothetical Return for Single Stock
 
-    Functional Requirements:
-        The application must allow users to select and track multiple stock tickers.
-        Users must be able to specify and change the date range for analysis.
-        The application must provide a comparison feature for selected stocks.
-        Users must be able to create, edit, and manage their investment portfolios.
-        The application must display key performance metrics and historical data for portfolios.
+User Story 1:
+As a user, I want to input a hypothetical investment amount and a date range so that I can see the potential return on a specific stock over that period.
 
-    Technical Requirements:
-        The application must be built using Streamlit for the front-end.
-        Python will be used for back-end processing and data handling.
-        Integration with financial APIs to fetch real-time stock data is required.
+User Story 2:
+As a user, I want to view the hypothetical return along with the actual historical performance of the stock so that I can better understand the potential growth of my investment.
+
+Track Hypothetical Return for Stock Comparisons
+
+User Story 3:
+As a user, I want to input a hypothetical investment amount and select multiple stocks so that I can compare the potential returns for each stock over a specified period.
+
+User Story 4:
+As a user, I want to see a comparative analysis of the hypothetical returns for the selected stocks so that I can determine which stock would have been a better investment.
+
+
 
 Wireframes/Mockups:
 
