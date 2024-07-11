@@ -36,6 +36,31 @@ This app conducts energy forecasting based on past consumption data. It adapts R
 - Generated plots to display hourly and monthly power consumption trends. 📈
 - Implemented XGBoost for future predictions by training the model on historical data.
 
+
+
+App 3: Global GHG Emissions Visualization Tool
+
+This Streamlit app highlights my GIS plotting skills by visualizing global greenhouse gas emissions. Users can interact with a detailed world map that displays CO2 and other GHG emissions by country, equipped with a time slider to observe changes over the years. It provides in-depth details on emissions, population, and GDP for a comprehensive understanding of each country's environmental impact.
+<img src="Images/GHG_app_1.png" alt="GHG World Map" width="400"/>
+<img src="Images/GHG_app_2.png" alt="Country Details" width="400"/>
+Technical Highlights:
+
+    Utilizes advanced GIS plotting to represent complex geographical data visually.
+    Interactive elements like a time slider enhance user engagement and data exploration.
+    Provides a comparative analysis tool for countries, supporting environmental research and education.
+
+App 4: Currency Conversion Product
+
+This app simplifies financial transactions by enabling real-time currency conversion. Users can select from a list of global currencies and input amounts to see converted values based on current exchange rates, making it ideal for travelers and finance professionals.
+<img src="Images/Currency_app_1.png" alt="Currency Selection" width="400"/>
+<img src="Images/Currency_app_2.png" alt="Conversion Results" width="400"/>
+Technical Highlights:
+
+    Incorporates real-time financial APIs to fetch the latest currency exchange rates.
+    Offers a user-friendly interface for quick and easy currency conversions.
+    Employs robust error handling to ensure reliable and accurate conversions.
+
+
 ## Future Plans
 
 I am planning to add one new app each week, covering various domains and functionalities. Stay tuned for more updates!
