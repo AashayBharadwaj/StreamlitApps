@@ -41,8 +41,8 @@ This app conducts energy forecasting based on past consumption data. It adapts R
 App 3: Global GHG Emissions Visualization Tool
 
 This Streamlit app highlights my GIS plotting skills by visualizing global greenhouse gas emissions. Users can interact with a detailed world map that displays CO2 and other GHG emissions by country, equipped with a time slider to observe changes over the years. It provides in-depth details on emissions, population, and GDP for a comprehensive understanding of each country's environmental impact.
-<img src="Images/GHG_app_1.png" alt="GHG World Map" width="400"/>
-<img src="Images/GHG_app_2.png" alt="Country Details" width="400"/>
+<img src="Images/GHG-1.png" alt="GHG World Map" width="400"/>
+<img src="Images/GHG-2.png" alt="Country Details" width="400"/>
 Technical Highlights:
 
     Utilizes advanced GIS plotting to represent complex geographical data visually.
