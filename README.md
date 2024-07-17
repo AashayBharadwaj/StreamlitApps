@@ -22,6 +22,7 @@ Added another feature for portfolio tracking.
 
 <img src="Images/Portfolio-Tracker.png" alt="Single Stock" width="400"/>
 
+Link to the app:- https://portfolio-track.streamlit.app/
 
 ### App 2: Energy Forecasting
 
@@ -36,7 +37,7 @@ This app conducts energy forecasting based on past consumption data. It adapts R
 - Generated plots to display hourly and monthly power consumption trends. 📈
 - Implemented XGBoost for future predictions by training the model on historical data.
 
-
+Link to the app:- https://energyco.streamlit.app/
 
 App 3: Global GHG Emissions Visualization Tool
 
