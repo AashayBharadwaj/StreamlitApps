@@ -5,7 +5,8 @@ from streamlit_folium import folium_static
 
 
 # Load and preprocess data
-df = load_data('StreamlitApps/EPA-Data/data.csv')
+df = load_data('EPA-Data/data.csv')
+
 df = preprocess_data(df)
 
 # Sidebar options
