@@ -24,7 +24,7 @@ def add_sidebar():
     1. **Cell Nuclei Measurements**: Adjust the values for the various cell nuclei measurements using the sliders provided. 
     
     2. **Prediction**: Based on the values you provide, the app will predict whether the breast mass is likely to be benign or malignant.
-    
+    """)
         
     st.sidebar.subheader("Cell Nuclei Measurements")
 
