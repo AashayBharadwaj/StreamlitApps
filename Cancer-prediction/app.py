@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 
-st.write("Joblib version:", joblib.__version__)
+
 
 def get_clean_data():
     data= pd.read_csv("Cancer-prediction/data.csv")
