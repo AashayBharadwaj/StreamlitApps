@@ -129,8 +129,8 @@ def get_radar_chart(input_data):
     return fig
 
 def add_predictions(input_data):
-    model = load("model.joblib")
-    scaler = load("scaler.joblib")
+    model = load("Cancer-prediction/model.joblib")
+    scaler = load("Cancer-prediction/scaler.joblib")
     
     input_array = np.array(list(input_data.values())).reshape(1,-1)
     
