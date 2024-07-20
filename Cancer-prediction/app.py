@@ -25,9 +25,6 @@ def add_sidebar():
     
     2. **Prediction**: Based on the values you provide, the app will predict whether the breast mass is likely to be benign or malignant.
     
-    
-    Note: This tool is designed for educational purposes and should not be used as a substitute for professional medical advice.
-    """)
         
     st.sidebar.subheader("Cell Nuclei Measurements")
 
