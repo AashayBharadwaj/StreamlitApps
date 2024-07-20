@@ -6,21 +6,7 @@ import numpy as np
 
 
 
-# User guide in the sidebar
-st.sidebar.header("User Guide")
-st.sidebar.write("""
-Welcome to the Breast Cancer Predictor app. Here's how you can use it:
 
-1. **Cell Nuclei Measurements**: Adjust the values for the various cell nuclei measurements using the sliders provided. The measurements include Radius (mean), Texture (mean), Perimeter (mean), Area (mean), Smoothness (mean), Compactness (mean), and more.
-
-2. **Prediction**: Based on the values you provide, the app will predict whether the breast mass is likely to be benign or malignant.
-
-3. **Model Information**: This app uses a Logistic Regression model that I've built to make the predictions.
-
-4. **Visualizations**: The radar chart on the right displays the mean, standard error, and worst values for each measurement, helping you visualize the data.
-
-Note: This tool is designed for educational purposes and should not be used as a substitute for professional medical advice.
-""")
 
 def get_clean_data():
     data= pd.read_csv("Cancer-prediction/data.csv")
