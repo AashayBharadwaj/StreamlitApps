@@ -42,10 +42,10 @@ def main():
     model,scaler = create_model(data)
 
     # Save the model
-    dump(model, 'Cancer-prediction/model.joblib',compress=3)
+    dump(model, 'Cancer-prediction/model.joblib',compress=1)
 
     # Save the scaler
-    dump(scaler, 'Cancer-prediction/scaler.joblib',compress=3)
+    dump(scaler, 'Cancer-prediction/scaler.joblib',compress=1)
     
 if __name__ =='__main__':
     main()
