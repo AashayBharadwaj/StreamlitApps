@@ -3,7 +3,7 @@
 This Streamlit-based app helps diagnose breast cancer by analyzing cell nuclei measurements from tissue samples.
 
 # Stock Analysis Dashboard
-<img src="logos/Cancer-Prediction.png" alt="Stock Dashboard" width="400"/>
+<img src="Images/Cancer-Prediction.png" alt="" width="400"/>
 
 ## Key Features
 - **Interactive Sliders**: Adjust the values for various cell nuclei measurements, including Radius (mean), Texture (mean), Perimeter (mean), Area (mean), Smoothness (mean), and more.
