@@ -25,7 +25,6 @@ def add_sidebar():
     
     2. **Prediction**: Based on the values you provide, the app will predict whether the breast mass is likely to be benign or malignant.
     
-    3. **Visualizations**: The radar chart on the right displays the mean, standard error, and worst values for each measurement, helping you visualize the data.
     
     Note: This tool is designed for educational purposes and should not be used as a substitute for professional medical advice.
     """)
