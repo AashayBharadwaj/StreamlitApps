@@ -120,13 +120,17 @@ def get_radar_chart(input_data):
   ))
 
     fig.update_layout(
-        polar=dict(
-            radialaxis=dict(
+    polar=dict(
+        radialaxis=dict(
             visible=True,
             range=[0, 1]
-        )),
-        showlegend=True
-    )
+        ),
+        angularaxis=dict(
+            tickfont=dict(color='black')  # Change text color to black
+        )
+    ),
+    showlegend=True
+)
 
     return fig
 
