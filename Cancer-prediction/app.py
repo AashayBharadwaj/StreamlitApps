@@ -5,9 +5,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 
-print("Joblib version:", joblib.__version__)
-print("Numpy version:", numpy.__version__)
-print("Scikit-Learn version:", sklearn.__version__)
+st.write("Joblib version:", joblib.__version__)
 
 def get_clean_data():
     data= pd.read_csv("Cancer-prediction/data.csv")
