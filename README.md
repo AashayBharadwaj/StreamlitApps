@@ -3,6 +3,8 @@
 This repository contains a collection of Data applications I've built using Streamlit(Python) as a  part of my portfolio. 
 I have completed five apps so far and plan to add one new app each week.
 
+You can find the link to the individual applications below.
+
 ## Overview
 
 <p align="center">
