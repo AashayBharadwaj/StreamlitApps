@@ -88,6 +88,12 @@ def main():
     st.title("Electricity Consumption Analysis")
     uploaded_file = st.file_uploader("Upload your data file", type=['csv'])
 
+    st.write("Please note that the csv has to be structured in the right format.")
+    st.write("The first column should include datatime data & the second column should include your energy consumption data.")
+    st.write("Here's a link to some sample datasets that you can try out."
+    st.markdown("https://www.kaggle.com/code/robikscube/time-series-forecasting-with-machine-learning-yt/input?select=AEP_hourly.csv")
+    
+
     if uploaded_file is not None:
         df = load_data(uploaded_file)
 
