@@ -6,7 +6,8 @@ from branca.element import Template, MacroElement
 
 
 # Load and preprocess data
-df = load_data('StreamlitApps/EPA-Data/data.csv')
+# Load and preprocess data
+df = load_data('EPA-Data/data.csv')
 df = preprocess_data(df)
 
 # Sidebar options
