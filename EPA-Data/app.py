@@ -11,9 +11,9 @@ df = preprocess_data(df)
 
 # Sidebar options
 st.sidebar.title("GHG Emissions Dashboards")
-option = st.sidebar.radio("Choose a Dashboard", ("Top GHG Emitters by Facilities", "Emissions Map",  "Emissions by Company"))
+option = st.sidebar.radio("Choose a Dashboard", ("Top GHG Emitters by Facility", "Emissions Map",  "Emissions by Company"))
 
-if option == "Top GHG Emitters by Facilities":
+if option == "Top GHG Emitters by Facility":
     top_n = st.selectbox("Select number of top emitters:", (10, 20, 30, 40, 50))
     fig = create_bar_chart(df, top_n)
     st.plotly_chart(fig)
