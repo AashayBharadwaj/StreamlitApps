@@ -1,12 +1,12 @@
 import streamlit as st
 from data_management import load_data, preprocess_data
-from visualizations import create_bar_chart,  create_bar_chart_company, create_choropleth_map, create_folium_map  # Folium map function
+from visualizations import create_bar_chart,  create_bar_chart_company, create_folium_map  # Folium map function
 from streamlit_folium import folium_static
+from branca.element import Template, MacroElement
 
 
 # Load and preprocess data
-df = load_data('EPA-Data/data.csv')
-
+df = load_data('data.csv')
 df = preprocess_data(df)
 
 # Sidebar options
@@ -19,10 +19,15 @@ if option == "Top GHG Emitters by Facility":
     st.plotly_chart(fig)
 
 elif option == "Emissions Map":
-    st.write("This is the Emissions Map dashboard.")  # Debug statement
-    folium_map = create_folium_map(df)
-        # Streamlit's method to display Folium maps
-    folium_static(folium_map)
+        folium_map = create_folium_map(df)
+        folium_static(folium_map)
+        st.write("### Legend")
+        st.write("""
+        - **Crimson Circle**: Indicates GHG emission points
+        - **Circle Size**: Proportional to emission quantity(Hover over the circles to see the actual emissions)
+        
+        """)  # You can use Markdown to format this text
+        
 
 # Additional dashboard option "Sector Analysis" can be developed and integrated later
 elif option =="Emissions by Company":
