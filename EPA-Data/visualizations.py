@@ -11,35 +11,6 @@ def create_bar_chart(df, top_n):
 
 
 
-def create_choropleth_map(df, color_scale):
-    """
-    Create a choropleth map of GHG emissions across Texas.
-    """
-    fig = px.scatter_geo(df, lat='LATITUDE', lon='LONGITUDE', color='GHG QUANTITY (METRIC TONS CO2e)',
-                         color_continuous_scale=color_scale, title='GHG Emissions Intensity Map',
-                         scope='usa', hover_name='FACILITY NAME')
-    # Adjust map layout
-    fig.update_geos(center=dict(lat=31.9686, lon=-99.9018), projection_scale=5)  # Fine-tune projection scale as needed
-    fig.update_layout(
-        width=1000,  # Increased width
-        height=600,  # Adjusted height for a better aspect ratio
-        margin={"r":0,"t":0,"l":0,"b":0},  # Reduce margins to use more space for the map
-        legend=dict(
-            yanchor="top",
-            y=0.99,
-            xanchor="left",
-            x=0.01,
-            bgcolor='rgba(255, 255, 255, 0.5)',  # Semi-transparent white background
-            title_font=dict(size=12),  # Smaller font size for the legend title
-            font=dict(size=10)  # Smaller font size for the legend items
-        )
-    )
-    return fig
-
-
-
-
-
 def create_bar_chart_company(df, top_n):
     """
     Create an interactive bar chart showing the top N GHG emitters by parent company.
@@ -55,8 +26,8 @@ def create_bar_chart_company(df, top_n):
     fig.update_layout(width=1400, height=600)  # Adjust these dimensions as needed
     return fig
 
-
 import folium
+from branca.element import MacroElement, Template, Element
 
 def create_folium_map(df, initial_coords=(31.9686, -99.9018), initial_zoom=6):
     """
@@ -75,5 +46,5 @@ def create_folium_map(df, initial_coords=(31.9686, -99.9018), initial_zoom=6):
             fill=True,
             fill_color='crimson'
         ).add_to(map)
-    
+        
     return map
