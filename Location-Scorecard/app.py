@@ -59,7 +59,7 @@ def create_location_card(location_name):
 def main():
 
     st.image(
-        "StreamlitApps\Location-Scorecard\images\Wide-NFL.png",  # Replace with the path to your image
+        "https://github.com/AashayBharadwaj/StreamlitApps/blob/4ef2b21e72e19290947880db2b13bef892613dfc/Location-Scorecard/images/Wide-NFL.png",  # Replace with the path to your image
         use_column_width=True  # Ensures the image spans the full width
     )
 
