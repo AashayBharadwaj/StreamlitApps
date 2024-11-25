@@ -1,0 +1,8 @@
+-Structure the code better
+-Add map view 
+    -should show the revenues by color and size
+    -try other metrics as well
+-Figure out how to add the graphs within the card
+-Color coding the metrics( < 1 million revenue => bad, planned vs actual revenue,)
+-Try out animations
+-Add the option of seeing the actual data in a csv format ?
