@@ -5,7 +5,7 @@ location_metrics = {
         "Total Revenue": "$1,200,000",
         "Total Proposals": 45,
         "Active Projects": 12,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-green.png",
+        "Image": "Location-Scorecard\images\man-green.png",
         "Manager": "Sergio Ramos"
     },
     "Austin": {
@@ -14,7 +14,7 @@ location_metrics = {
         "Total Revenue": "$950,000",
         "Total Proposals": 38,
         "Active Projects": 10,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-purple.png",
+        "Image": "Location-Scorecard\images\man-purple.png",
         "Manager": "Harry Kane"
     },
     "Denver": {
@@ -23,7 +23,7 @@ location_metrics = {
         "Total Revenue": "$1,500,000",
         "Total Proposals": 50,
         "Active Projects": 15,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-yellow.png",
+        "Image": "Location-Scorecard\images\man-yellow.png",
         "Manager": "John Doe"
     },
     "Nashville": {
@@ -32,7 +32,7 @@ location_metrics = {
         "Total Revenue": "$1,100,000",
         "Total Proposals": 42,
         "Active Projects": 14,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-green.png",
+        "Image": "Location-Scorecard\images\man-green.png",
         "Manager": "Rob Adams"
     },
     "Indiana": {
@@ -41,7 +41,7 @@ location_metrics = {
         "Total Revenue": "$1,050,000",
         "Total Proposals": 40,
         "Active Projects": 13,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-purple.png",
+        "Image": "Location-Scorecard\images\man-purple.png",
         "Manager": "Jeffery Hall"
     },
     "Houston": {
@@ -50,7 +50,7 @@ location_metrics = {
         "Total Revenue": "$1,000,000",
         "Total Proposals": 36,
         "Active Projects": 11,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-yellow.png",
+        "Image": "Location-Scorecard\images\man-yellow.png",
         "Manager": "Matt Stites"
     },
     "San Francisco": {
@@ -59,7 +59,7 @@ location_metrics = {
         "Total Revenue": "$900,000",
         "Total Proposals": 32,
         "Active Projects": 8,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-green.png",
+        "Image": "Location-Scorecard\images\man-green.png",
         "Manager": "Paul Nicholas"
     },
     "Boca Raton": {
@@ -68,7 +68,7 @@ location_metrics = {
         "Total Revenue": "$850,000",
         "Total Proposals": 30,
         "Active Projects": 9,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-purple.png",
+        "Image": "Location-Scorecard\images\man-purple.png",
         "Manager": "Rob Adams"
     },
     "Kansas City": {
@@ -77,7 +77,7 @@ location_metrics = {
         "Total Revenue": "$750,000",
         "Total Proposals": 28,
         "Active Projects": 7,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-yellow.png",
+        "Image": "Location-Scorecard\images\man-yellow.png",
         "Manager": "Kurt Douglos"
     },
     "Atlanta": {
@@ -86,7 +86,7 @@ location_metrics = {
         "Total Revenue": "$1,300,000",
         "Total Proposals": 48,
         "Active Projects": 16,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-green.png",
+        "Image": "Location-Scorecard\images\man-green.png",
         "Manager": "Hector Hernandez"
     },
     "Philadelphia": {
@@ -95,7 +95,7 @@ location_metrics = {
         "Total Revenue": "$800,000",
         "Total Proposals": 34,
         "Active Projects": 10,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-purple.png",
+        "Image": "Location-Scorecard\images\man-purple.png",
         "Manager": "Greg Holmes"
     },
     "Phoenix": {
@@ -104,7 +104,7 @@ location_metrics = {
         "Total Revenue": "$700,000",
         "Total Proposals": 25,
         "Active Projects": 6,
-        "Image": "StreamlitApps\Location-Scorecard\images\man-yellow.png",
+        "Image": "Location-Scorecard\images\man-yellow.png",
         "Manager": "Kelly Miller"
     }
 }
