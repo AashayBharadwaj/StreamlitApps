@@ -43,7 +43,7 @@ def create_location_card(location_name):
             <p style="margin: 5px 0; font-size: 0.9rem; color: #555;"><strong>Total Proposals:</strong> {metrics['Total Proposals']}</p>
             <p style="margin: 5px 0; font-size: 0.9rem; color: #555;"><strong>Active Projects:</strong> {metrics['Active Projects']}</p>
             <button style="margin-top: 10px; padding: 5px 20px; font-size: 0.9rem; background-color: #0077b6; color: white; border: none; border-radius: 5px;">
-                    <a href="#" style="text-decoration: none; color: white;" onclick="document.getElementById('org-chart-image').style.display='block';return false;">
+                    <a href="https://bravasdesign-my.sharepoint.com/:u:/g/personal/aashay_bharadwaj_bravas_com/EeA_dotWCIZJn_5dsHdvE_MB_d2WflsrLo6qtGLAOpg1Ow?e=Wm7hT1" style="text-decoration: none; color: white;" onclick="document.getElementById('org-chart-image').style.display='block';return false;">
                         View Org Chart
                     </a>
             </button>
