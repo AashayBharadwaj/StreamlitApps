@@ -5,7 +5,7 @@ location_metrics = {
         "Total Revenue": "$1,200,000",
         "Total Proposals": 45,
         "Active Projects": 12,
-        "Image": "images\man-green.png",
+        "Image": "Location-Scorecard/images/man-green.png",
         "Manager": "Sergio Ramos"
     },
     "Austin": {
@@ -14,7 +14,7 @@ location_metrics = {
         "Total Revenue": "$950,000",
         "Total Proposals": 38,
         "Active Projects": 10,
-        "Image": "images\man-purple.png",
+        "Image": "Location-Scorecard/images/man-purple.png",
         "Manager": "Harry Kane"
     },
     "Denver": {
@@ -23,7 +23,7 @@ location_metrics = {
         "Total Revenue": "$1,500,000",
         "Total Proposals": 50,
         "Active Projects": 15,
-        "Image": "images\man-yellow.png",
+        "Image": "Location-Scorecard/images/man-yellow.png",
         "Manager": "John Doe"
     },
     "Nashville": {
@@ -32,7 +32,7 @@ location_metrics = {
         "Total Revenue": "$1,100,000",
         "Total Proposals": 42,
         "Active Projects": 14,
-        "Image": "images\man-green.png",
+        "Image": "Location-Scorecard/images/man-green.png",
         "Manager": "Rob Adams"
     },
     "Indiana": {
@@ -41,7 +41,7 @@ location_metrics = {
         "Total Revenue": "$1,050,000",
         "Total Proposals": 40,
         "Active Projects": 13,
-        "Image": "images\man-purple.png",
+        "Image": "Location-Scorecard/images/man-purple.png",
         "Manager": "Jeffery Hall"
     },
     "Houston": {
@@ -50,7 +50,7 @@ location_metrics = {
         "Total Revenue": "$1,000,000",
         "Total Proposals": 36,
         "Active Projects": 11,
-        "Image": "images\man-yellow.png",
+        "Image": "Location-Scorecard/images/man-yellow.png",
         "Manager": "Matt Stites"
     },
     "San Francisco": {
@@ -59,7 +59,7 @@ location_metrics = {
         "Total Revenue": "$900,000",
         "Total Proposals": 32,
         "Active Projects": 8,
-        "Image": "images\man-green.png",
+        "Image": "Location-Scorecard/images/man-green.png",
         "Manager": "Paul Nicholas"
     },
     "Boca Raton": {
@@ -68,7 +68,7 @@ location_metrics = {
         "Total Revenue": "$850,000",
         "Total Proposals": 30,
         "Active Projects": 9,
-        "Image": "images\man-purple.png",
+        "Image": "Location-Scorecard/images/man-purple.png",
         "Manager": "Rob Adams"
     },
     "Kansas City": {
@@ -77,7 +77,7 @@ location_metrics = {
         "Total Revenue": "$750,000",
         "Total Proposals": 28,
         "Active Projects": 7,
-        "Image": "images\man-yellow.png",
+        "Image": "Location-Scorecard/images/man-yellow.png",
         "Manager": "Kurt Douglos"
     },
     "Atlanta": {
@@ -86,7 +86,7 @@ location_metrics = {
         "Total Revenue": "$1,300,000",
         "Total Proposals": 48,
         "Active Projects": 16,
-        "Image": "images\man-green.png",
+        "Image": "Location-Scorecard/images/man-green.png",
         "Manager": "Hector Hernandez"
     },
     "Philadelphia": {
@@ -95,7 +95,7 @@ location_metrics = {
         "Total Revenue": "$800,000",
         "Total Proposals": 34,
         "Active Projects": 10,
-        "Image": "images\man-purple.png",
+        "Image": "Location-Scorecard/images/man-purple.png",
         "Manager": "Greg Holmes"
     },
     "Phoenix": {
@@ -104,7 +104,7 @@ location_metrics = {
         "Total Revenue": "$700,000",
         "Total Proposals": 25,
         "Active Projects": 6,
-        "Image": "images\man-yellow.png",
+        "Image": "Location-Scorecard/images/man-yellow.png",
         "Manager": "Kelly Miller"
     }
 }
@@ -133,84 +133,84 @@ salesperson_metrics = {
         "Number of Proposals": 45,
         "MTD Sales": "$120,000",
         "YTD Sales": "$1,200,000",
-        "Image": "images\man-green.png"
+        "Image": "Location-Scorecard/images/man-green.png"
     },
     "Jane Doe": {
         "Tenure": "2 years",
         "Number of Proposals": 38,
         "MTD Sales": "$95,000",
         "YTD Sales": "$950,000",
-        "Image": "images\man-purple.png"
+        "Image": "Location-Scorecard/images/man-purple.png"
     },
     "Robert Jane": {
         "Tenure": "4 years",
         "Number of Proposals": 50,
         "MTD Sales": "$150,000",
         "YTD Sales": "$150,000",
-        "Image": "images\man-yellow.png"
+        "Image": "Location-Scorecard/images/man-yellow.png"
     },
     "Emily Davis": {
         "Tenure": "3.5 years",
         "Number of Proposals": 42,
         "MTD Sales": "$110,000",
         "YTD Sales": "$1,100,000",
-        "Image": "images\man-green.png"
+        "Image": "Location-Scorecard/images/man-green.png"
     },
     "Michael Brown": {
         "Tenure": "2.5 years",
         "Number of Proposals": 40,
         "MTD Sales": "$105,000",
         "YTD Sales": "$1,050,000",
-        "Image": "images\man-purple.png"
+        "Image": "Location-Scorecard/images/man-purple.png"
     },
     "Sarah Wilson": {
         "Tenure": "3 years",
         "Number of Proposals": 36,
         "MTD Sales": "$100,000",
         "YTD Sales": "$1,000,000",
-        "Image": "images\man-yellow.png"
+        "Image": "Location-Scorecard/images/man-yellow.png"
     },
     "David Martinez": {
         "Tenure": "5 years",
         "Number of Proposals": 32,
         "MTD Sales": "$90,000",
         "YTD Sales": "$900,000",
-        "Image": "images\man-green.png"
+        "Image": "Location-Scorecard/images/man-green.png"
     },
     "Laura Garcia": {
         "Tenure": "4.5 years",
         "Number of Proposals": 30,
         "MTD Sales": "$85,000",
         "YTD Sales": "$850,000",
-        "Image": "images\man-purple.png"
+        "Image": "Location-Scorecard/images/man-purple.png"
     },
     "Chris Lee": {
         "Tenure": "6 years",
         "Number of Proposals": 28,
         "MTD Sales": "$75,000",
         "YTD Sales": "$750,000",
-        "Image": "images\man-yellow.png"
+        "Image": "Location-Scorecard/images/man-yellow.png"
     },
     "Jessica Taylor": {
         "Tenure": "3.5 years",
         "Number of Proposals": 48,
         "MTD Sales": "$130,000",
         "YTD Sales": "$1,300,000",
-        "Image": "images\man-green.png"
+        "Image": "Location-Scorecard/images/man-green.png"
     },
     "Daniel Hernandez": {
         "Tenure": "2 years",
         "Number of Proposals": 34,
         "MTD Sales": "$80,000",
         "YTD Sales": "$800,000",
-        "Image": "images\man-purple.png"
+        "Image": "Location-Scorecard/images/man-purple.png"
     },
     "Sophia Moore": {
         "Tenure": "2.5 years",
         "Number of Proposals": 25,
         "MTD Sales": "$70,000",
         "YTD Sales": "$700,000",
-        "Image": "images\man-yellow.png"
+        "Image": "Location-Scorecard/images/man-yellow.png"
     }
 }
 
@@ -220,26 +220,26 @@ salesleaderboard_metrics = {
         "MTD Sales": "$120,000",
         "% of MTD Goal": "250%",
         "YTD Sales 2024": "$1,200,000",
-        "Image": "images\man-green.png"
+        "Image": "Location-Scorecard/images/man-green.png"
     },
     "Chris Stewart": {
         "MTD Sales": "$120,000",
         "% of MTD Goal": "250%",
         "YTD Sales 2024": "$1,200,000",
-        "Image": "images\man-purple.png"
+        "Image": "Location-Scorecard/images/man-purple.png"
     },
     
     "Larry Rivers": {
         "MTD Sales": "$120,000",
         "% of MTD Goal": "250%",
         "YTD Sales 2024": "$1,200,000",
-        "Image": "images\man-yellow.png"    },
+        "Image": "Location-Scorecard/images/man-yellow.png"    },
     
     "John Woods": {
         "MTD Sales": "$120,000",
         "% of MTD Goal": "250%",
         "YTD Sales 2024": "$1,200,000",
-        "Image": "images\man-green.png"
+        "Image": "Location-Scorecard/images/man-green.png"
     }
 }
 
