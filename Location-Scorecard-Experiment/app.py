@@ -23,7 +23,7 @@ def main():
 
     if page_selection == "Location Scorecard Overview":
         st.image(
-            "images/Wide-NFL.png",
+            "Location-Scorecard/images/Wide-NFL.png",
             use_column_width=True
         )
         st.markdown(
