@@ -40,7 +40,7 @@ def main():
 
     elif page_selection == "Sales Overview":
         st.image(
-            "images/sales_line_chart.png",  # Replace with the path to your image
+            "Location-Scorecard/images/sales_line_chart.png",  # Replace with the path to your image
             use_column_width=True
         )
         st.markdown(
@@ -105,7 +105,7 @@ def main():
         st_folium(m, width=800, height=500)
     elif page_selection == "Sales Leaderboard":
         st.image(
-            "images/leaderboard.jpg",  # Replace with the path to your image
+            "Location-Scorecard/images/leaderboard.jpg",  # Replace with the path to your image
             use_column_width=True
         )
         st.markdown(
