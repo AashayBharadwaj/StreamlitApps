@@ -1,5 +1,6 @@
 # app.py
 import streamlit as st
+import folium
 from functions import create_location_card, create_salesperson_card,create_leaderboard_card
 from data_dict import location_metrics, salesperson_metrics,location_coords,salesleaderboard_metrics
 
