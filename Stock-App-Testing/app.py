@@ -40,17 +40,12 @@ if sidebar_option == 'Track Stock Performance':
     end_date = st.sidebar.date_input('End Date', value=default_end_date)
     
     compare_stock = st.sidebar.checkbox('Compare with another stock')
-    compare_sandp = st.sidebar.checkbox('Compare with S&P 500')
     
     if compare_stock:
         ticker_2 = st.sidebar.selectbox('Stock Ticker', options=ticker_options, index=ticker_options.index(default_ticker_2))
     else:
         ticker_2 = 'No Selection'
 
-    if compare_sandp:
-        ticker_3 = '^GSPC'
-    else:
-        ticker_3 = 'No selection'
     # Fetch stock data for the first ticker
     data = fetch_stock_data(ticker, start_date, end_date)
 
@@ -62,27 +57,9 @@ if sidebar_option == 'Track Stock Performance':
         explanation = f'This is how {ticker} has performed against {ticker_2} in the selected time period!'
     else:
         # Plot stock data for the first ticker only
-        if compare_sandp:
-            # ticker_2 = 'No Selection'
-            data_3=fetch_stock_data(ticker_3,start_date,end_date)
-            fig = plot_dual_y_axes(data,ticker,data_3,ticker_3)
-            explanation = f'This is how {ticker} has performed against S&P 500 in the selected time period!'
-        else:    
-            fig = process_price_data(data, ticker)
-                # Calculate the return on $1000 invested on the start date
-            initial_price = data.loc[data.index[0], 'Adj Close']
-            final_price = data.loc[data.index[-1], 'Adj Close']
-            initial_investment = 1000
-            number_of_stocks = initial_investment / initial_price
-            final_value = number_of_stocks * final_price
-             
-            
-
-    # Format the explanation with consistent font and color
-            explanation = f'This is how {ticker} has performed in the selected time period!'
-
-
-            
+        fig = process_price_data(data, ticker)
+        explanation = f'This is how {ticker} has performed in the selected time period!'
+        
 
     # Display the plot
     st.plotly_chart(fig)
@@ -92,6 +69,8 @@ if sidebar_option == 'Track Stock Performance':
     data2 = data.copy()
     data2['% Change'] = data['Adj Close'] / data['Adj Close'].shift(1) - 1
     data2.dropna(inplace=True)
+    
+    
 
     annual_return = calculate_annual_return(data2)
     stdev = calculate_standard_deviation(data2)
