@@ -90,3 +90,7 @@ def process_data_and_metrics(data):
     return data2, annual_return_rounded, stdev_rounded, risk_adj_return_rounded
 
 
+    
+    return data2, annual_return_rounded, stdev_rounded, risk_adj_return_rounded
+
+
