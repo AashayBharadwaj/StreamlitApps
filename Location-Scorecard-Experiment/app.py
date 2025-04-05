@@ -28,14 +28,14 @@ def main():
             use_column_width=True
         )
         st.markdown(
-            "<h1 style='text-align: center; color: blue;'>Lone Star Listings - Locations Overview</h1>",
+            "<h1 style='text-align: center; color:black'>Lone Star Listings - Locations Overview</h1>",
             unsafe_allow_html=True,
         )
         st.markdown(
             """
-            <p style='text-align: center;'>
+            <h2 style='text-align: center;'>
             <strong>Gamifying Analytics : Track and compare branch metrics to spark competition.</strong>.
-            </p>
+            </h2>
             """,
             unsafe_allow_html=True
         )
