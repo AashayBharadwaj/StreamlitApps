@@ -28,13 +28,13 @@ def main():
             use_column_width=True
         )
         st.markdown(
-            "<h1 style='text-align: center;'>Lone Star Listings - Locations Overview</h1>",
+            "<h1 style='text-align: center; color: blue;'>Lone Star Listings - Locations Overview</h1>",
             unsafe_allow_html=True,
         )
         st.markdown(
             """
             <p style='text-align: center;'>
-            Compare how your different branches are performing against each other. Dive into the metrics that matter and drive competition with <strong>Gamifying Analytics</strong>.
+            <strong>Gamifying Analytics : Track and compare branch metrics to spark competition.</strong>.
             </p>
             """,
             unsafe_allow_html=True
