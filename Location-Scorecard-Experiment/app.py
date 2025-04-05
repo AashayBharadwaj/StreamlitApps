@@ -1,8 +1,8 @@
 # app.py
 import streamlit as st
 import folium
-from functions import create_location_card, create_salesperson_card,create_leaderboard_card
-from data_dict import location_metrics, salesperson_metrics,location_coords,salesleaderboard_metrics
+from functions import create_location_card, create_salesperson_card, create_leaderboard_card
+from data_dict import location_metrics, salesperson_metrics, location_coords, salesleaderboard_metrics
 
 st.set_page_config(initial_sidebar_state="collapsed")
 
@@ -14,7 +14,7 @@ def main():
         ["Location Scorecard Overview", "Sales Overview", "Map", "Sales Leaderboard"]
     )
 
-        # Add a dropdown to select the time period
+    # Add a dropdown to select the time period
     st.sidebar.title('Select a time period')
     time_period = st.sidebar.selectbox(
         "Select Time Period:",
@@ -28,8 +28,16 @@ def main():
             use_column_width=True
         )
         st.markdown(
-            "<h1 style='text-align: center;'>Bravas Locations Overview</h1>",
+            "<h1 style='text-align: center;'>Lone Star Listings - Locations Overview</h1>",
             unsafe_allow_html=True,
+        )
+        st.markdown(
+            """
+            <p style='text-align: center;'>
+            Compare how your different branches are performing against each other. Dive into the metrics that matter and drive competition with <strong>Gamifying Analytics</strong>.
+            </p>
+            """,
+            unsafe_allow_html=True
         )
         locations = list(location_metrics.keys())
         for i in range(0, len(locations), 3):
@@ -41,11 +49,11 @@ def main():
 
     elif page_selection == "Sales Overview":
         st.image(
-            "Location-Scorecard/images/sales_line_chart.png",  # Replace with the path to your image
+            "Location-Scorecard/images/Sale_Racechart.png",  # Replace with the path to your image
             use_column_width=True
         )
         st.markdown(
-            "<h1 style='text-align: center;'>Bravas Salespersons Overview</h1>",
+            "<h1 style='text-align: center;'>Lone Star Listings - Overview</h1>",
             unsafe_allow_html=True,
         )
         salespersons = list(salesperson_metrics.keys())
@@ -61,10 +69,10 @@ def main():
         from streamlit_folium import st_folium
         from data_dict import location_coords, reported_issues  # Ensure these are defined in `data_dict.py`
 
-    # Initialize the map centered at the US
+        # Initialize the map centered at the US
         m = folium.Map(location=[37.0902, -95.7129], zoom_start=4)
 
-    # Add location markers and circles for reported issues
+        # Add location markers and circles for reported issues
         for location, metrics in location_metrics.items():
             if location in location_coords:
                 lat = location_coords[location]["Lat"]
@@ -99,18 +107,16 @@ def main():
                     tooltip=f"{reported_issues[location]} issues reported in the last month.",  # Tooltip with the issue count
                 ).add_to(m)
 
-        # Streamlit App
-        st.title("Bravas Locations - Reported Issues")
-
         # Render the map in Streamlit
         st_folium(m, width=800, height=500)
+
     elif page_selection == "Sales Leaderboard":
         st.image(
             "Location-Scorecard/images/leaderboard.jpg",  # Replace with the path to your image
             use_column_width=True
         )
         st.markdown(
-            "<h1 style='text-align: center;'>Bravas Sales Leaderboard</h1>",
+            "<h1 style='text-align: center;'>Lone Star Listings - Sales Leaderboard</h1>",
             unsafe_allow_html=True,
         )
         st.markdown(
