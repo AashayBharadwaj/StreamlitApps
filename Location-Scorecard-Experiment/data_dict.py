@@ -5,7 +5,7 @@ location_metrics = {
         "Total Revenue": "$1,200,000",
         "Total Proposals": 45,
         "Active Projects": 12,
-        "Image": "Location-Scorecard/images/man-green.png",
+        "Image": "Location-Scorecard/images/american_man.png",
         "Manager": "Sergio Ramos"
     },
     "Austin": {
@@ -14,7 +14,7 @@ location_metrics = {
         "Total Revenue": "$950,000",
         "Total Proposals": 38,
         "Active Projects": 10,
-        "Image": "Location-Scorecard/images/man-purple.png",
+        "Image": "Location-Scorecard/images/african_man.png",
         "Manager": "Harry Kane"
     },
     "Denver": {
@@ -23,7 +23,7 @@ location_metrics = {
         "Total Revenue": "$1,500,000",
         "Total Proposals": 50,
         "Active Projects": 15,
-        "Image": "Location-Scorecard/images/man-yellow.png",
+        "Image": "Location-Scorecard/images/mexican_man.png",
         "Manager": "John Doe"
     },
     "Nashville": {
