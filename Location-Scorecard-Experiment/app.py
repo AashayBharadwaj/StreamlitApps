@@ -34,7 +34,7 @@ def main():
         st.markdown(
             """
             <h2 style='text-align: center;'>
-            <strong>Gamifying Analytics <br> Track and compare branch metrics to spark competition.</strong>
+            <strong>Gamifying Analytics & sparking competition!<br> </strong>
             </h2>
             """,
             unsafe_allow_html=True
