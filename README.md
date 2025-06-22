@@ -23,7 +23,7 @@ Added another feature for portfolio tracking.
 
 <img src="Images/Portfolio-Tracker.png" alt="Single Stock" width="400"/>
 
-Link to the app: [Stock Analysis Dashboard](https://portfolio-track.streamlit.app/)
+Link to the app: [Stock Analysis Dashboard]([https://portfolio-track.streamlit.app/](https://stock-charting-refactored.streamlit.app/))
 
 ### App 2: Energy Forecasting
 
